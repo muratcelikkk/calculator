@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    background-color: black;
+    width: 500px;
+    height: 840px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3rem;
+}
+.btn{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    font-size: 40px;
+    height: 540px;
+    width: 440px;
+    margin-top: 15rem;
+}
+.box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 45px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    padding: 24px 0 0 0;
+    background-color: #333333;
+}
+.box4 ,.box8 ,.box12,.box16{
+    background-color: #f1a33c;
+}
+.box17{
+    grid-column: 1 / span 2;
+    border-radius: 55px;
+    width: 215px;
+    justify-content: flex-start;
+    padding-left: 43px;
+    background-color: #333333;
+}
+.box:hover{
+    background-color: #33333389;
+}
+.box4:hover{
+    background-color: #f1a33cb5;
+}
+.box8:hover{
+    background-color: #f1a33cb5;
+}
+.box12:hover{
+    background-color: #f1a33cb5;
+}
+.box16:hover{
+    background-color: #f1a33cb5;
+}
